@@ -1,5 +1,5 @@
-📊 NYC Property Sales Analysis
-📌 Overview
+## 📊 NYC Property Sales Analysis
+# 📌 Overview
 
 This project analyzes New York City property sales data to explore pricing patterns, borough trends, property types, and building characteristics.
 
@@ -13,7 +13,7 @@ Conduct exploratory data analysis (EDA)
 
 Prepare structured data for future dashboarding
 
-📂 Data
+# 📂 Data
 
 Raw dataset: 12.7 MB
 
@@ -23,19 +23,22 @@ Source: NYC Property Sales Open Data
 
 The cleaned dataset is generated using 02_clean.ipynb.
 
-🗂 Project Structure
+# 🗂 Project Structure
 
-nyc-property-sales/
-├── data/
-│   ├── raw/raw.csv
-│   └── clean/clean.csv
-├── notebooks/
-│   ├── 01_explore.ipynb
-│   ├── 02_clean.ipynb
-│   └── 03_analysis.ipynb
-├── requirements.txt
-└── README.md
-🧹 Data Cleaning
+
+    nyc-property-sales/
+    ├── data/
+    │   ├── raw/raw.csv
+    │   └── clean/clean.csv
+    ├── notebooks/
+    │   ├── 01_explore.ipynb
+    │   ├── 02_clean.ipynb
+    │   └── 03_analysis.ipynb
+    ├── requirements.txt
+    └── README.md
+
+
+# 🧹 Data Cleaning
 
 Key cleaning steps:
 
@@ -52,7 +55,8 @@ Filtered unrealistic sale prices
 
 Converted ZIP codes to string (for correct categorical handling)
 
-🧠 Feature Engineering
+
+# 🧠 Feature Engineering
 
 To improve analysis and readability, several new columns were created:
 
@@ -70,7 +74,9 @@ SALE MONTH, SALE YEAR, MONTH_YEAR
 
 These features enable clearer comparisons, trend analysis, and category-level insights.
 
-📊 Exploratory Analysis
+
+
+# 📊 Exploratory Analysis
 
 Analysis includes:
 
@@ -86,7 +92,7 @@ Monthly and yearly trend analysis
 
 Boxplots for distribution comparisons
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Python
 
@@ -98,7 +104,7 @@ Seaborn
 
 Matplotlib
 
-🎯 What This Project Demonstrates
+# 🎯 What This Project Demonstrates
 
 Ability to clean and structure messy public datasets
 
