@@ -24,6 +24,7 @@ Source: NYC Property Sales Open Data
 The cleaned dataset is generated using 02_clean.ipynb.
 
 🗂 Project Structure
+
 nyc-property-sales/
 ├── data/
 │   ├── raw/raw.csv
