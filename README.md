@@ -1,5 +1,6 @@
-## 📊 NYC Property Sales Analysis
-# 📌 Overview
+# 📊 NYC Property Sales Analysis
+
+## 📌 Overview
 
 This project analyzes New York City property sales data to explore pricing patterns, borough trends, property types, and building characteristics.
 
@@ -13,7 +14,7 @@ Conduct exploratory data analysis (EDA)
 
 Prepare structured data for future dashboarding
 
-# 📂 Data
+## 📂 Data
 
 Raw dataset: 12.7 MB
 
@@ -23,7 +24,7 @@ Source: NYC Property Sales Open Data
 
 The cleaned dataset is generated using 02_clean.ipynb.
 
-# 🗂 Project Structure
+## 🗂 Project Structure
 
 
     nyc-property-sales/
@@ -38,7 +39,7 @@ The cleaned dataset is generated using 02_clean.ipynb.
     └── README.md
 
 
-# 🧹 Data Cleaning
+## 🧹 Data Cleaning
 
 Key cleaning steps:
 
@@ -56,7 +57,7 @@ Filtered unrealistic sale prices
 Converted ZIP codes to string (for correct categorical handling)
 
 
-# 🧠 Feature Engineering
+## 🧠 Feature Engineering
 
 To improve analysis and readability, several new columns were created:
 
@@ -76,7 +77,7 @@ These features enable clearer comparisons, trend analysis, and category-level in
 
 
 
-# 📊 Exploratory Analysis
+## 📊 Exploratory Analysis
 
 Analysis includes:
 
@@ -98,17 +99,13 @@ Python
 
 Pandas
 
-NumPy
-
 Seaborn
 
 Matplotlib
 
-# 🎯 What This Project Demonstrates
+## 🎯 What This Project Demonstrates
 
 Ability to clean and structure messy public datasets
-
-Strong feature engineering skills
 
 Practical exploratory data analysis
 
